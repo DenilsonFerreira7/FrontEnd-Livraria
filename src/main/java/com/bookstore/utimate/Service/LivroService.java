@@ -1,5 +1,4 @@
 package com.bookstore.utimate.Service;
-
 import com.bookstore.utimate.Exeptions.ObjectNotFoundException;
 import com.bookstore.utimate.Repository.LivroRepository;
 import com.bookstore.utimate.domain.Categoria;
@@ -35,5 +34,10 @@ public class LivroService {
         Categoria cat = categoriaService.findById(id_cat);
         obj.setCategoria(cat);
         return repository.save(obj);
+    }
+
+    public void delete(Integer id) {
+        Livro obj = findById(id);
+        repository.delete(obj);
     }
 }
