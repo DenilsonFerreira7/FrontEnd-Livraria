@@ -12,6 +12,10 @@ public class StandardError {
         this.error = error;
     }
 
+    public StandardError() {
+
+    }
+
     public Long getTimestamp() {
         return timestamp;
     }
