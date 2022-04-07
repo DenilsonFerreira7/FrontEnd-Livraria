@@ -14,6 +14,7 @@
 	<name>utimate</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies><!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
 		<dependency>
@@ -59,7 +60,6 @@
 	</dependencies>
 
 	<build>
-
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
