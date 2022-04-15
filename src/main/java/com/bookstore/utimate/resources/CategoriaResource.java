@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 
 
 
-@CrossOrigin("*")
+@CrossOrigin(origins ="http://localhost:4200")
 @RestController
 @RequestMapping(value = "/categorias")
 public class CategoriaResource {
