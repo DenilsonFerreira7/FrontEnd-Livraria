@@ -9,10 +9,35 @@
 }
 
 .title h1 {
+    
+    margin-left: -4rem;
     font-size: 2rem;
     color: rgb(207, 206, 206);
     font-weight: 500;
 }
+button {
+    margin-bottom: 0.5rem;
+}
+
 .table {
     width: 100%;
+}
+
+
+.livros {
+    color: rgba(236, 184, 184, 0.651);
+    margin-left: .5rem;
+}
+
+.edit {
+    color: lightgreen;
+}
+
+.delete {
+    color: rgb(224, 98, 98);
+    margin-left: .5rem ;
+}
+
+.mat-header {
+    width: 5rem;
 }
