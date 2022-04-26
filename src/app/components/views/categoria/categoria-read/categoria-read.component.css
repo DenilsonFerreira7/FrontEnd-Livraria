@@ -17,8 +17,12 @@
 }
 button {
     margin-bottom: 0.5rem;
+    border-radius: 10px ;
 }
-
+button:hover{
+    background-color:  rgba(12, 11, 12, 0) ;
+    
+}
 .table {
     width: 100%;
 }
